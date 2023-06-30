@@ -1,0 +1,96 @@
+.container {
+        padding: 50px;
+        max-width: 600px;
+        margin: 0 auto;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        border-radius: 30px;
+        background: linear-gradient(
+          76.8deg,
+          rgb(246, 206, 251) 3.6%,
+          rgb(246, 246, 252) 90.4%
+        );
+      }
+
+      h1 {
+        color: #ff6182;
+        text-align: center;
+        margin-top: 0;
+      }
+      .head1 {
+        text-align: center;
+        border: 1px dotted #ff6182;
+        border-radius: 25px;
+        padding: 10px;
+        margin: 20px 5px;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+      }
+      h2 {
+        text-align: center;
+        margin-bottom: 5px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 98%;
+        border-radius: 9px;
+      }
+      .back {
+        color: #86d72f;
+      }
+      hr {
+        border: none;
+        height: 1.5px;
+        background-color: #86d72f;
+      }
+      p {
+        line-height: 1.5;
+        margin: 20px 5px 10px;
+      }
+      .link {
+        text-decoration: none;
+        color: #ee1b93;
+        font-style: oblique;
+      }
+      .link:hover {
+        text-decoration: underline;
+      }
+      .lis {
+        text-align: center;
+        margin: 0;
+      }
+      .lis ul {
+        margin: 0;
+        display: inline-block;
+        text-align: left; /* Align list items to the left within the centered container */
+      }
+      ul {
+        list-style: "🪴";
+      }
+      li {
+        color: #fd3d66;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        background-color: #86d72f;
+        color: #ffffff;
+        font-size: 18px;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 50px;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        opacity: 0.6;
+        cursor: pointer;
+      }
+      h3 {
+        text-align: center;
+        font-weight: 375;
+        font-size: 24px;
+      }
+      .grace {
+        text-align: center;
+        font-style: italic;
+      }
